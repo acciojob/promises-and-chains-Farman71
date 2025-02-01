@@ -12,7 +12,7 @@ form.addEventListener("submit", function(event) {
       if (age > 18) {
         resolve(`Welcome, ${name}. You can vote.`);
       } else {
-        reject(`Oh sorry, ${name}. You aren't old enough.`);
+        reject(`Oh sorry ${name}. You aren't old enough.`);
       }
     }, 4000);
   });
